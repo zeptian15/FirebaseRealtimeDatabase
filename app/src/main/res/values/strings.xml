@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">FirebaseRealtimeDatabase</string>
-
     <array name="genres">
         <item>Pop</item>
         <item>Dangdut</item>
@@ -9,4 +7,6 @@
         <item>Mumble</item>
 
     </array>
+
+    <string name="app_name">FirebaseRealtimeDatabase</string>
 </resources>

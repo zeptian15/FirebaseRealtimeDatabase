@@ -18,7 +18,7 @@ public class ArtistList extends ArrayAdapter<Artist> {
     private List<Artist> artistList;
 
     public ArtistList(Activity context, List<Artist> artistList){
-        super(context, R.layout.list_layout,artistList);
+        super(context, R.layout.layout_artist_list,artistList);
         this.context = context;
         this.artistList = artistList;
     }
@@ -28,7 +28,7 @@ public class ArtistList extends ArrayAdapter<Artist> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater = context.getLayoutInflater();
 
-        View listViewItem = inflater.inflate(R.layout.list_layout, null, true);
+        View listViewItem = inflater.inflate(R.layout.layout_artist_list, null, true);
 
         TextView tvName = listViewItem.findViewById(R.id.tvName);
         TextView tvGenre = listViewItem.findViewById(R.id.tvGenre);
